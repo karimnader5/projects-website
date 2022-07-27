@@ -1,0 +1,50 @@
+html {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+header {
+    height: 50px; 
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #001728;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#cards {
+    margin: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #001728;
+    border-color: #001728;
+}
+
+.btn-primary:hover {
+    color: #001728;
+    border-color: #001728;
+    background-color: white;
+}
+
+a {
+    color: #001728;
+}
+
+a:hover {
+    background-color: #001728;
+    color: white;
+}
